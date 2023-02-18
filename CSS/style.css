@@ -1,0 +1,251 @@
+/*----
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------NAV---------*/
+nav{
+    background-image: linear-gradient(to right, #ffffff, #e6e0f6, #d2c1eb, #c1a1dd, #b480cd, #ad6dc4, #a658ba, #9f42af, #9937ac, #932ba9, #8d1da6, #8707a3);
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style:none;    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;    
+    font-size: 20px;   
+    border: 2px solid gold;  
+    padding: 5px;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.navegacion ul {
+    display: flex;
+    width: 40%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+}
+
+.navegacion {
+    display: flex;    
+    justify-content: space-between;
+}
+
+.bordesredondos {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .navegacion ul {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .navegacion ul {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .navegacion ul {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    nav a {
+        font-size: 14px;        
+    }  
+}
+/*-----------HEADER--------------*/
+
+header img,video {
+    width: 250px;
+}
+
+header {
+    background-color: black;
+    padding-top: 25px;
+}
+
+.contenedor-img {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/*----------MAIN------------*/
+
+main {
+    background-color: black;
+    border-bottom: 2px solid gold
+    ;
+}
+
+main h2{
+}
+
+main p {
+    padding-top: 25px;
+}
+
+main h3{
+    padding-top: 25px;
+}
+
+main ul{
+    color: white;
+    font-size: 25px;
+}
+
+main img {
+    font-size: 5px;
+}
+
+main div {
+    padding-top: 25px;
+}
+
+.contenedor_main {
+    display: flex;
+    align-items: center;
+}
+/*----------FOOTER-----------*/
+
+footer{
+    background: rgb(224,219,34);
+background: linear-gradient(180deg, rgba(224,219,34,1) 7%, 
+rgba(239,69,247,1) 47%, rgba(0,0,0,1) 100%);
+    padding-top: 25px;
+}
+footer div{
+    font-size: 25px;
+    color: white;
+}
+
+footer a i {
+    font-size: 40px;
+    color: white;
+    margin: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.contenedor_footer{
+    list-style: none;
+    font-size:25px ;
+    color:white
+}
+
+.contenedor_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_iconos {
+    display: flex;
+    align-items: flex-end;
+}
+.lista_1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/*---------ClASS-----------*/
+
+.titulos{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.textos {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+/*-------- Pag PESTAÑAS---------*/
+
+.orden_i{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: double 7px gold;
+    /* Esto te genera el margen de pestañas en blanco */
+    /* margin: 10px; */
+}
+
+.orden_d{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: double 7px gold;
+    margin: 10px;
+}
+
+.list {
+    list-style: none;
+}
+
+
+.container-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* IFRAME  */
+
+iframe {
+    width: 700px;
+    height: 200px;
+}
