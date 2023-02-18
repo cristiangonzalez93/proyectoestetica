@@ -137,6 +137,13 @@ main div {
 .contenedor_main {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.lista-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 /*----------FOOTER-----------*/
 
@@ -241,6 +248,11 @@ footer {
 .container-img img {
     width: 100%;
     height: 100%;
+}
+
+.container-img2 {
+    width: 500px;
+    height:500px ;
 }
 
 /* IFRAME  */
